@@ -3,7 +3,7 @@
 LightSource
 ===========
 
-LightSource - recoded plugin BkrTorchLight by BeYkeRYkt
+LightSource - recoded plugin BkrTorchLight by BeYkeRYkt, now by Ceph
 
 - [ SPIGOT RESOURCE ] (https://www.spigotmc.org/resources/lightsource.2521/)
 - [ CONTRIBUTORS ] (https://github.com/BeYkeRYkt/LightSource/graphs/contributors)

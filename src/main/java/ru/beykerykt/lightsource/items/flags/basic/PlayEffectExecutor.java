@@ -36,10 +36,10 @@ public class PlayEffectExecutor implements UpdatableFlagExecutor {
 			String effectName = args[0];
 			int data = Integer.parseInt(args[1]);
 			int count = Integer.parseInt(args[2]);
-			source.getLocation().getWorld().spigot().playEffect(source.getLocation(), Effect.valueOf(effectName.toUpperCase()), 0, data, 0, 0, 0, 0, count, 10);
+			source.getLocation().getWorld().playEffect(source.getLocation(), Effect.valueOf(effectName.toUpperCase()), data, count);
 		} else {
 			// default ?
-			source.getLocation().getWorld().spigot().playEffect(source.getLocation(), Effect.PARTICLE_SMOKE, 0, 0, 0, 0, 0, 0, 1, 10);
+			source.getLocation().getWorld().playEffect(source.getLocation(), Effect.SMOKE, 1, 10);
 		}
 	}
 
